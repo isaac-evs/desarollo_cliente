@@ -1,11 +1,10 @@
-# Mi Portafolio (Tarea 1)
+## Tarea 1
 
-- Tecnologías de Desarrollo en el Cliente
+- Este es el repositorio de la tarea 1, consiste en un CV en linea usando SASS
 
+## Link
 
-## Autores
-
-- [@isaac-evs](https://www.github.com/isaac-evs)
+https://github.com/isaac-evs/desarollo_cliente/tree/main/tarea1
 
 
 ## Instalación
@@ -13,11 +12,16 @@
 Importante: Requiere [Node.js](https://nodejs.org/) para ejecutar.
 
 ```bash
-git clone https://github.com/isaac-evs/MyPortfolio.git
-cd MyPortfolio
+git clone https://github.com/isaac-evs/desarrollo_cliente
+cd desarrollo_cliente
 ```
 
 ```bash
+cd tarea1
+```
+
+```bash
+cd MyPortfolio
 npm install
 ```
 
@@ -26,3 +30,9 @@ npm run styles
 ```
 
 Ahora, abre el archivo `index.html` en tu navegador, o Live Server.
+
+
+## Autores
+
+- [@isaac-evs](https://www.github.com/isaac-evs)
+
