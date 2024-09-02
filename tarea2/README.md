@@ -13,19 +13,33 @@ https://github.com/isaac-evs/desarollo_cliente
 /desarrollo cliente
 └── tarea2/
     ├── portfolio/
-    │   └── usuarios/
-    │       └── versiones/
-    │           ├── v1.0/
-    │           │   ├── instalación.md
-    │           │   └── configuración.md
-    │           └── v2.0/
-    │               ├── instalación.md
-    │               └── configuración.md
-    │ 
+    │   ├── src/
+    │   │   ├── assets/
+    │   │   │   └── media/
+    │   │   │       └── multiple pngs and jpgs
+    │   │   ├─ data/  
+    │   │   │  └── content.json
+    │   │
+    │   ├── sass/
+    │   │   ├── _functions.scss
+    │   │   ├── _mixin.scss
+    │   │   ├── _variables.scss
+    │   │   └── styles.scss
+    │   │
+    │   ├── scripts/
+    │   │   ├── content.ts
+    │   │   ├── form.ts
+    │   │   └── main.ts
+    │   │
+    │   ├── .gitignore
+    │   ├── index.html
+    │   ├── gulpfile.js
+    │   ├── package-lock.json
+    │   └── package.json
+    │
     ├── .gitignore 
     ├── package-lock.json
     └── package.json  
-
 ```
 
 
