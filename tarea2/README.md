@@ -11,44 +11,21 @@ https://github.com/isaac-evs/desarollo_cliente
 
 ```bash
 /desarrollo cliente
-├── docs/
-│   ├── guías/
-│   │   └── usuarios/
-│   │       └── versiones/
-│   │           ├── v1.0/
-│   │           │   ├── instalación.md
-│   │           │   └── configuración.md
-│   │           └── v2.0/
-│   │               ├── instalación.md
-│   │               └── configuración.md
-│   └── api/
-│       ├── referencia/
-│       │   └── swagger.json
-│       └── ejemplos/
-│           ├── ejemplo1.json
-│           └── ejemplo2.json
-├── src/
-│   ├── componentes/
-│   │   ├── auth/
-│   │   │   ├── login.js
-│   │   │   └── registro.js
-│   │   └── dashboard/
-│   │       ├── main.js
-│   │       └── sidebar.js
-│   ├── utils/
-│   │   ├── helpers/
-│   │   │   └── formatDate.js
-│   │   └── hooks/
-│   │       └── useAuth.js
-│   └── app.js
-└── tests/
-├── unit/
-│   ├── auth/
-│   │   ├── login.test.js
-│   │   └── registro.test.js
-└── integration/
-├── dashboard.test.js
-└── app.test.js
+└── tarea2/
+    ├── portfolio/
+    │   └── usuarios/
+    │       └── versiones/
+    │           ├── v1.0/
+    │           │   ├── instalación.md
+    │           │   └── configuración.md
+    │           └── v2.0/
+    │               ├── instalación.md
+    │               └── configuración.md
+    │ 
+    ├── .gitignore 
+    ├── package-lock.json
+    └── package.json  
+
 ```
 
 
