@@ -5,7 +5,7 @@ Este es el repositorio de la Tarea 2,consiste en una aplicación de compilación
 
 # Link
 
-https://github.com/isaac-evs/desarollo_cliente
+[https://github.com/isaac-evs/desarollo_cliente](https://github.com/isaac-evs/desarollo_cliente/tree/main/tarea2)
 
 # Contenido 
 
