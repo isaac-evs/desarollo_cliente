@@ -19,20 +19,20 @@ https://github.com/isaac-evs/desarollo_cliente
     │   │   │       └── multiple pngs and jpgs
     │   │   ├─ data/  
     │   │   │  └── content.json
-    │   │
-    │   ├── sass/
-    │   │   ├── _functions.scss
-    │   │   ├── _mixin.scss
-    │   │   ├── _variables.scss
-    │   │   └── styles.scss
-    │   │
-    │   ├── scripts/
-    │   │   ├── content.ts
-    │   │   ├── form.ts
-    │   │   └── main.ts
-    │   │
-    │   ├── .gitignore
-    │   ├── index.html
+    │   │   │
+    │   │   ├── sass/
+    │   │   │   ├── _functions.scss
+    │   │   │   ├── _mixin.scss
+    │   │   │   ├── _variables.scss
+    │   │   │   └── styles.scss
+    │   │   │
+    │   │   ├── scripts/
+    │   │   │   ├── content.ts
+    │   │   │   ├── form.ts
+    │   │   │   └── main.ts
+    │   │   │
+    │   │   └── index.html
+    │   │ 
     │   ├── gulpfile.js
     │   ├── package-lock.json
     │   └── package.json
