@@ -67,7 +67,7 @@ npm install
 npm run build
 ```
 
-Ahora, abre el archivo generado en `desarrollo_cliente/tarea2/porftolio/dist/index.html` con Live Server.
+Ahora, abre el archivo generado en `desarrollo_cliente/tarea2/porftolio/dist/index.html` con [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 
 ## Manipulación de datos mediante JSON
