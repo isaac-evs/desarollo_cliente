@@ -49,7 +49,10 @@ Este es el repositorio de la Tarea 2,consiste en una aplicación de compilación
 Importante: Requiere [Node.js](https://nodejs.org/) para ejecutar.
 
 ```bash
-git clone https://github.com/isaac-evs/desarrollo_cliente
+git clone https://github.com/isaac-evs/desarrollo_cliente.git
+```
+
+```bash
 cd desarrollo_cliente
 ```
 
