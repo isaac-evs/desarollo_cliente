@@ -32,7 +32,8 @@ Este es el repositorio de la Tarea 2,consiste en una aplicación de compilación
     │   │   │   └── main.ts
     │   │   │
     │   │   └── index.html
-    │   │ 
+    │   │
+    │   ├── .gitignore
     │   ├── gulpfile.js
     │   ├── package-lock.json
     │   └── package.json
