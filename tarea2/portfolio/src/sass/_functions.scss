@@ -1,0 +1,3 @@
+@function adjust-color($color, $amount) {
+    @return lighten($color, $amount: $amount);
+}
