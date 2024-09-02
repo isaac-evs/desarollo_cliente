@@ -1,0 +1,16 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "my personal portfolio ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles:dev": "sass src/styles:dist/styles --watch",
+    "styles": "sass src/styles:dist/styles --no-source-map"
+  },
+  "author": "IVS",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
