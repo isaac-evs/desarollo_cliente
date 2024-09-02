@@ -50,10 +50,10 @@ Importante: Requiere [Node.js](https://nodejs.org/) para ejecutar.
 ```bash
 git clone https://github.com/isaac-evs/desarrollo_cliente
 cd desarrollo_cliente
+```
+
+```bash
 cd tarea2
-```
-
-```bash
 npm install
 ```
 
@@ -63,15 +63,33 @@ npm install
 ```
 
 ```bash
-cd portfolio
-npm install
+npm run build
 ```
 
-Ahora, abre el archivo `desarrollo_cliente/tarea2/porftolio/dist/index.html` con Live Server.
+Ahora, abre el archivo generado en `desarrollo_cliente/tarea2/porftolio/dist/index.html` con Live Server.
 
 
 ## Manipulación de datos mediante JSON
 
+Abre el siguiente archivo en: `desarrollo_cliente/tarea2/porftolio/src/data/content.json`
+
+Modifica el contenido que desees cambiar
+
+Importante: Solamente modifica los valores, no las claves.
+
+```bash
+   {
+      "degree": "Modifica esto",
+      "institution": "esto",
+      "year": "y esto"
+    },
+```
+
+Presiona `Cmd + S` o `Control + S` para guardar los cambios.
+
+```bash
+npm run build
+```
 
 
 
