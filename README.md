@@ -5,7 +5,7 @@ Este es el repositorio de tareas de el curso "Téconologias de Desarrollo en el 
 
 # Link
 
-https://github.com/isaac-evs/desarollo_cliente
+https://github.com/isaac-evs/desarrollo_cliente
 
 # Contenido 
 
