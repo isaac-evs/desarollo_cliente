@@ -77,12 +77,10 @@ Modifica el contenido que desees cambiar
 
 Importante: Solamente modifica los valores, no las claves.
 
+Por ejemplo para modificar el mail de contacto:
+
 ```bash
-   {
-      "degree": "Modifica esto",
-      "institution": "esto",
-      "year": "y esto"
-    },
+    "contactEmail": "escribe tu mail aqui"
 ```
 
 Presiona `Cmd + S` o `Control + S` para guardar los cambios.
