@@ -1,4 +1,3 @@
-
 # Tarea 2
 
 Este es el repositorio de la Tarea 2,consiste en una aplicación de compilación con SASS, Typescript y JSON
@@ -70,49 +69,28 @@ npm install
 npm run build
 ```
 
-Ahora, abre tu navegador con la direccion de `http://localhost:3000/`
+Ahora, abre el archivo generado en `desarrollo_cliente/tarea2/porftolio/dist/index.html` con [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 
-## Testing
+## Manipulación de datos mediante JSON
 
+Abre el siguiente archivo en: `desarrollo_cliente/tarea2/porftolio/src/data/content.json`
 
-Abre el siguiente archivo en: `desarrollo_servidor/tarea1/src/middlewares/roles.ts`
+Modifica el contenido que desees cambiar
 
-Modifica el rol del usuario harcodeado, los validos son admin y gerente, cualquier otro rol es invalido 
+Importante: Solamente modifica los valores, no las claves.
 
-```typescript
+Por ejemplo para modificar el mail de contacto:
 
-export function roles(allowedRoles: string[]) {
-  return (req: Request, res: Response, next: NextFunction) => {
-    const hardcodedUser: User = {
-      id: "1",
-      name: "John Doe",
-      role: "gerente",
-    };
-
-    if (allowedRoles.includes(hardcodedUser.role!)) {
-      req.user = hardcodedUser;
-      return next();
-    } else {
-      return res.status(403).send("Acceso prohibido");
-    }
-  };
-}
-
+```bash
+    "contactEmail": "escribe tu mail aqui"
 ```
-
 
 Presiona `Cmd + S` o `Control + S` para guardar los cambios.
 
-
-Abra su navegador con la direccion de `http://localhost:3000/usuarios` para checar los cambios
-
-
-No importa que rol uses, ya que aparecera "Unauthorized", debido a que se necesita la contrasena: [12345
-](http://localhost:3000/usuarios?key=12345)
-
-
-Ahora, si no eres admin ni gerente te aparecera "acceso prohibido", pero si lo eres te debera aparecer: "lista de usuarios"
+```bash
+npm run build
+```
 
 
 
