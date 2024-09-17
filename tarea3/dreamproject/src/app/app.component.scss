@@ -21,17 +21,17 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #f3e5ab; // Soft sand background to match the island vibe
-    border: 10px solid #d2a679; // Wood-like border
-    border-radius: 20px; // Rounded corners for a soft look
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); // Soft shadow for depth
+    background-color: #f3e5ab;
+    border: 10px solid #d2a679;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
     height: 95vh;
 }
 
 .game-board {
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-gap: 15px; // More space between cards
+    grid-gap: 15px;
     justify-content: center;
     padding: 10px;
 }
@@ -42,8 +42,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e5f9d7; // Soft pastel green to match Animal Crossing aesthetics
-    border: 4px solid #d2a679; // Wooden texture for the card border
+    background-color: #e5f9d7;
+    border: 4px solid #d2a679;
     border-radius: 15px;
     cursor: pointer;
     transition:
@@ -51,30 +51,30 @@ body {
         transform 0.2s;
 
     &.flipped {
-        background-color: #ffffff; // Light white background for flipped cards
+        background-color: #ffffff;
     }
 
     img {
-        width: 85%; // Slightly smaller to give padding inside the card
+        width: 85%;
         height: 85%;
         object-fit: contain;
-        border-radius: 10px; // Rounded edges on the images for a soft, cozy look
+        border-radius: 10px;
     }
 
     &:hover {
-        background-color: #b3e5a1; // A deeper green on hover for a subtle effect
-        transform: scale(1.05); // Slight zoom effect for interaction
+        background-color: #b3e5a1;
+        transform: scale(1.05);
     }
 }
 
 button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #f4d88a; // A bright yellow/golden tone to match Animal Crossing's warmth
+    background-color: #f4d88a;
     border: none;
     border-radius: 10px;
     font-size: 1.2em;
-    color: #59493f; // Darker brown text
+    color: #59493f;
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     transition:
@@ -90,34 +90,33 @@ button {
 .win-message {
     margin-top: 20px;
     padding: 15px 30px;
-    background-color: #f9f0c0; // Soft yellow background for a cheerful look
-    border: 2px solid #f0c0a0; // Light peach border for a warm touch
-    border-radius: 12px; // Rounded corners for a soft, friendly appearance
-    color: #4b4b4b; // Dark grey text color for good readability
+    background-color: #f9f0c0;
+    border: 2px solid #f0c0a0;
+    border-radius: 12px;
+    color: #4b4b4b;
     font-size: 1.5em;
     text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); // Soft shadow for depth
-    animation: fadeIn 1s ease-in-out; // Add a fade-in animation for a smooth effect
-}
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
 
-// Keyframes for the fade-in animation
-@keyframes fadeIn {
-    from {
-        opacity: 0;
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
-    to {
-        opacity: 1;
-    }
-}
 
-.attempts-counter {
-    margin-bottom: 20px;
-    padding: 10px 20px;
-    background-color: #f9f0c0; // Soft yellow background
-    border: 2px solid #f0c0a0; // Light peach border
-    border-radius: 12px; // Rounded corners
-    color: #4b4b4b; // Dark grey text color
-    font-size: 1.2em; // Slightly smaller font size
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); // Soft shadow
-    text-align: center;
+    .attempts-counter {
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        background-color: #f9f0c0;
+        border: 2px solid #f0c0a0;
+        border-radius: 12px;
+        color: #4b4b4b;
+        font-size: 1.2em;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
 }

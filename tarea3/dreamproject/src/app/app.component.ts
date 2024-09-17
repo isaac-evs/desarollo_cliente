@@ -20,27 +20,24 @@ export class AppComponent {
   flippedCards: number[] = [];
   attempts = 0;
   gameCompleted = false;
-  winMessage = ""; // Variable to hold the win message
+  winMessage = "";
 
   constructor() {
     this.initializeGame();
   }
 
   initializeGame() {
-    const totalFish = 81; // Number of available fish images
-    const fishPath = "assets/fish"; // Base path for fish images
-    const fishExtension = ".webp"; // File extension for fish images
+    const totalFish = 81;
+    const fishPath = "assets/fish";
+    const fishExtension = ".webp";
 
-    // Dynamically create the fish image URLs
     const allFish = Array.from(
       { length: totalFish },
       (_, i) => `${fishPath}${String(i + 1).padStart(5, "0")}${fishExtension}`,
     );
 
-    // Randomly select 6 fish from the pool for the game
     const selectedFish = this.shuffle(allFish).slice(0, 6);
 
-    // Duplicate the selected fish to form pairs, shuffle them
     this.cards = this.shuffle(
       [...selectedFish, ...selectedFish].map(
         (imageUrl): Card => ({
@@ -53,7 +50,7 @@ export class AppComponent {
 
     this.attempts = 0;
     this.gameCompleted = false;
-    this.winMessage = ""; // Reset win message on new game
+    this.winMessage = "";
   }
 
   shuffle(array: any[]): any[] {
