@@ -1,0 +1,25 @@
+<div class="game-container">
+    <h1>{{ title }}</h1>
+
+    <!-- Display the attempts counter -->
+    <div class="attempts-counter">Attempts: {{ attempts }}</div>
+
+    <!-- Game Board -->
+    <div class="game-board">
+        <div
+            *ngFor="let card of cards; let i = index"
+            [ngClass]="{ flipped: card.flipped || card.matched }"
+            class="card"
+            (click)="flipCard(i)"
+        >
+            <img *ngIf="card.flipped || card.matched" [src]="card.imageUrl" />
+        </div>
+    </div>
+
+    <!-- Display win message -->
+    <div *ngIf="gameCompleted" class="win-message">
+        {{ winMessage }}
+    </div>
+
+    <button (click)="resetGame()">Reset Game</button>
+</div>
