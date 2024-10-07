@@ -1,0 +1,17 @@
+<div class="container">
+    <h1>Input/Output</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <app-user-list
+                [selectedUserId]="selectedUser?.id"
+                (userSelected)="onUserSelected($event)"
+            ></app-user-list>
+        </div>
+        <div class="col-md-6">
+            <app-user-details
+                [user]="selectedUser"
+                (clearUser)="onClearUser()"
+            ></app-user-details>
+        </div>
+    </div>
+</div>
