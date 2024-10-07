@@ -1,0 +1,15 @@
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+.user-list li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.user-list li:hover {
+    background-color: #f0f0f0;
+}
+.user-list li.selected {
+    background-color: #e0e0e0;
+}

@@ -1,0 +1,11 @@
+.container {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+}
+.col-md-6 {
+    flex: 1;
+    padding: 10px;
+}

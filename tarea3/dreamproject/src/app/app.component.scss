@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "FinkHeavy";
+    src: url("/assets/fonts/FinkHeavy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "FinkHeavy Neue", sans-serif;
+    background-color: #a4d1e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f3e5ab;
+    border: 10px solid #d2a679;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    height: 95vh;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5f9d7;
+    border: 4px solid #d2a679;
+    border-radius: 15px;
+    cursor: pointer;
+    transition:
+        background-color 0.3s,
+        transform 0.2s;
+
+    &.flipped {
+        background-color: #ffffff;
+    }
+
+    img {
+        width: 85%;
+        height: 85%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    &:hover {
+        background-color: #b3e5a1;
+        transform: scale(1.05);
+    }
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f4d88a;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: #59493f;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition:
+        background-color 0.3s,
+        transform 0.2s;
+
+    &:hover {
+        background-color: #e5c17b;
+        transform: scale(1.05);
+    }
+}
+
+.win-message {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #f9f0c0;
+    border: 2px solid #f0c0a0;
+    border-radius: 12px;
+    color: #4b4b4b;
+    font-size: 1.5em;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .attempts-counter {
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        background-color: #f9f0c0;
+        border: 2px solid #f0c0a0;
+        border-radius: 12px;
+        color: #4b4b4b;
+        font-size: 1.2em;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+}
